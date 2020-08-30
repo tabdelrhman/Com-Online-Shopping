@@ -41,12 +41,12 @@
 <body>
 
 	<div class="wrapper">
-	
+
 		<!-- Navigation -->
 		<%@include file="./shared/navbar.jsp"%>
-		
+
 		<div class="content">
-		
+
 			<!-- Page Content -->
 			<c:if test="${userClickHome == true }">
 				<%@include file="home.jsp"%>
@@ -60,6 +60,11 @@
 			<!-- Contact Us -->
 			<c:if test="${userClickContact == true }">
 				<%@include file="contactUs.jsp"%>
+			</c:if>
+
+			<!-- List Products -->
+			<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}">
+				<%@include file="listProducts.jsp"%>
 			</c:if>
 		</div>
 

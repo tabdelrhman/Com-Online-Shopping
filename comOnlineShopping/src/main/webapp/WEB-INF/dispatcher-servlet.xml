@@ -13,6 +13,8 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
   
    <context:component-scan base-package="com.doc.comOnlineShopping.controller" />
+      <context:component-scan base-package="com.doc.comOnlineShoppingBE.daoImpl" />
+   
    
    	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		

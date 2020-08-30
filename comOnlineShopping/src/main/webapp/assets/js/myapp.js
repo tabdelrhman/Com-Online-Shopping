@@ -8,15 +8,18 @@ $(function(){
 	case 'Contact-Us':
 		$('#contactUs').addClass('active');
 		break;
+	case 'All Products':
+		$('#listProduct').addClass('active');
+		break;
 	case 'Home':
 		$('#home').addClass('active');
 		break;
 	
 	default:
-/*		if (menu == "Home")
+		if (menu == "Home")
 			break;
-		$('#listProducts').addClass('active');
-		$('#a_' + menu).addClass('active');*/
+		$('#listProduct').addClass('active');
+		$('#a_' + menu).addClass('active');
 		break;
 	}
 });

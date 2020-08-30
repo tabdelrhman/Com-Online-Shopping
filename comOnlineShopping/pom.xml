@@ -39,7 +39,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!-- jstl -->
 		<dependency>
 			<groupId>jstl</groupId>
@@ -47,6 +47,12 @@
 			<version>1.2</version>
 		</dependency>
 
+		<!-- ComOnlineShoppingBE -->
+		<dependency>
+			<groupId>com.doc</groupId>
+			<artifactId>comOnlineShoppingBE</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 	<build>
