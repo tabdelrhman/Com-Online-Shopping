@@ -14,7 +14,7 @@ import com.doc.comOnlineShoppingBE.dto.CategoryDTO;
 public class PageController {
 	
 	@Autowired
-	CategoryImpl categoryDao;
+	Category categoryDao;
 
 	@RequestMapping(value = {"/","/home","/page"})
 	public ModelAndView index() {
@@ -64,7 +64,7 @@ public class PageController {
 		// categoryDAO to fetch a single category
 		CategoryDTO category = null;
 		
-		category = categoryDao.get(id);
+		category = categoryDao.getCategory(id);
 		
 		mv.addObject("title",category.getName());
 		

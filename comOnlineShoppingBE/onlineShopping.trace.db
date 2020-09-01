@@ -1,0 +1,9 @@
+2020-08-30 19:43:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORYDTO" not found; SQL statement:
+insert into CategoryDTO (id, is_active, description, image_url, name) values (null, ?, ?, ?, ?) [42102-200]
+2020-08-30 19:45:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORY" not found; SQL statement:
+insert into CATEGORY (id, is_active, description, image_url, name) values (null, ?, ?, ?, ?) [42102-200]
+2020-08-30 20:24:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CATEGORY" not found; SQL statement:
+insert into CATEGORY (id, is_active, description, image_url, name) values (null, ?, ?, ?, ?) [42102-200]

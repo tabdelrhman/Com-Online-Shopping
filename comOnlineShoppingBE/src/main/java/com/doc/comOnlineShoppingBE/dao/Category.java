@@ -7,5 +7,9 @@ import com.doc.comOnlineShoppingBE.dto.CategoryDTO;
 public interface Category {
 
 	List listCategory();
-	CategoryDTO get(int id);
+	CategoryDTO getCategory(int id);
+	boolean addNewCategory(CategoryDTO category);
+	boolean updateCategory(CategoryDTO category);
+	boolean deleteCategory(CategoryDTO category);
+
 }
