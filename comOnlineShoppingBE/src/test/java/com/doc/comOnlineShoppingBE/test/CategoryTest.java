@@ -1,4 +1,4 @@
-package com.doc.comOnlineShoppingBE.category.test;
+package com.doc.comOnlineShoppingBE.test;
 
 import static org.junit.Assert.assertEquals;
 
